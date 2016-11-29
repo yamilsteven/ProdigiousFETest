@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="author" content="Yamil Steven Lasso Ledesma">
+		<title>Test Prodigious - Yamil Lasso</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body> 
+		<div class="main-container">
+		<div class="languageSwitch">
+		    <input type="checkbox" name="languageSwitch" class="languageCheckbox" id="mylanguageSwitch" checked>
+		    <label class="label" for="mylanguageSwitch">
+		        <span class="inner"></span>
+		        <span class="switch"></span>
+		    </label>
+		</div>
+			<section class="left-col">
+				<div class='menu' id="menu">
+					<ul>
+				   		<li>
+				   			<img src="images/icon1.png">
+					   		<a href='#'>Check In</a>
+					   	</li>
+					   	<li class="active">
+				   			<img src="images/icon2.png">
+					   		<a href='#'>Events</a>
+					   	</li>
+					   	<li>
+				   			<img src="images/icon3.png">
+					   		<a href='#'>Account</a>
+					   	</li>
+					   	<li>
+				   			<img src="images/icon4.png">
+					   		<a href='#'>Settings</a>
+					   	</li>
+					</ul>
+				</div>
+				<div class="profile">
+					<div class="profiledata">
+						<img src="images/profile-pic2.png">
+						<div class="info-p" id="infoProfile">
+							<!-- <h2>Courtney Timmons</h2>
+							<p>15,323 followers</p> -->
+						</div>
+					</div>
+					<ul class="levels">
+						<li>
+							<p>Edit user</p>
+							<img src="images/icon8.png">
+						</li>
+						<li class="levelsel">
+							<p>Web statistics</p>
+							<img src="images/icon9.png">
+						</li>
+						<li>
+							<p>Upload settings</p>
+							<img src="images/icon10.png">
+						</li>
+						<li>
+							<p>Events</p>
+							<img src="images/icon11.png">
+						</li>
+					</ul>
+				</div>	
+				<div class="statistics">
+					<ul class="selection">
+						<li class="option">Diagram Stats</li>
+						<li>Month Report</li>
+					</ul>
+					<div class="content">
+						<h3 id="chartTitle"><!-- Data Transfer --></h3>
+						<div id="chartContainer"></div>
+						<div class="centerchart" id="centerChart">
+							<!-- <p>2435 files</p>
+							<h1>47Gb</h1> -->
+						</div>
+						<ul class="legends">
+							<li>
+								<h3>audio</h3>
+								<p>40%</p>
+							</li>
+							<li>
+								<h3>video</h3>
+								<p>30%</p>
+							</li>
+							<li>
+								<h3>photo</h3>
+								<p>20%</p>
+							</li>
+						</ul>
+						<ul class="bottom-menu">
+							<li class="selected">
+								<img src="images/upload-icon.png">
+								<p>Upload Files</p>
+							</li>
+							<li>
+								<img src="images/share-icon.png">
+								<p>Share Link</p>
+							</li>
+							<li>
+								<img src="images/backup-icon.png">
+								<p>Back Up</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section class="right-col">
+				<div class="blog-post">
+					<div class="upper-level"></div>
+					<div class="middle-level">
+						<img src="images/profile-pic.png">
+						<div class="info" id="infoBlogPost">
+							<!-- <h2>John Raymons</h2>
+							<p>Your talent amazes! This is awesome.</p>
+							<p>Excited to see the final product.</p> -->
+						</div>
+					</div>
+					<ul class="lower-level">
+						<li>
+							<img src="images/icon5.png">
+							<p id="blogViews"><!-- 172 --></p>
+						</li>
+						<li>
+							<img src="images/icon6.png">
+							<p id="blogComments"><!-- 34 --></p>
+						</li>
+						<li>
+							<img src="images/icon7.png">
+							<p id="blogLikes"><!-- 210 --></p>
+						</li>
+					</ul>
+				</div>	
+			</section>
+		</div>
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/general.js"></script>
+		<script src="js/jquery.canvasjs.min.js"></script><!-- for chart -->
+	</body>
+</html>

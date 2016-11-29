@@ -1,0 +1,23 @@
+{
+	"blogPost": {
+		"name": "John Raymons",
+		"lead1": "Tu talento asombra! Esto es increíble.",
+		"lead2": "Emocionado por ver el producto final",
+		"views": "173",
+		"comments": "34",
+		"likes" : "210"
+	},
+	"profile": {
+		"name": "Courtney Timmons",
+		"followers": "15,323 seguidores"
+	},
+	"chart": {
+		"title": "Transferencia de Datos",
+		"files": "2.435",
+		"size": "47Gb",
+		"audio": "40",
+		"video": "30",
+		"photo": "20",
+		"type": "Archivos"
+	}
+}
